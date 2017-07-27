@@ -1,0 +1,96 @@
+#logo-img{
+    box-shadow: 5px -10px 10px #333;
+}
+
+
+/*Hero Section*/
+#about-hero {
+    background-image: url('http://www.sourdoughlibrary.org/wp-content/uploads/2013/09/Dough_Hands.jpg');
+    height: 350px;
+    background-size:cover;
+    width:80%;
+    background-position:center;
+    /*Resize image with pixler*/
+    float:left;
+}
+#video-1{
+    height: 400px;
+    width:600px;
+}
+#about-hero~h1 {
+    width: 20%;
+    float:right;
+    margin-top: 10%;
+    text-shadow: 2px 2px 4px #f00
+}
+/*Column Styles Starts*/
+.column {
+    width:33%; /*approx*/
+    height:400px;
+    float:left;
+    padding: 0px 16px;
+    position: relative;
+}
+
+.column p {
+    text-align:justify;
+    height: 264px;
+    overflow: scroll;
+}
+#col-1{
+    clear:both;
+
+}
+#col-2{
+    
+}
+#col-3{
+    
+}
+
+.buttons {
+    color:#0ff;
+    border:none;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 0;
+    left:35%;
+}
+#but-1{
+    background-color:#00f;
+    padding:16px;
+    font-size:1em;
+    
+}
+#but-1:hover {
+    background-color:#ff0;
+    color:#0f0;
+}
+#but-2{
+    background-color:#f00;
+    border:none;
+    padding:10px;
+    font-size:1em;
+}
+#but-3 {
+    background-color:#0f0;
+    border:none;
+    padding:5px;
+    font-size:1em;
+}
+/*Column Styles End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

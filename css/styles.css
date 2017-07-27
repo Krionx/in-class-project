@@ -1,0 +1,181 @@
+/*Fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900|Permanent+Marker');
+
+/*Universals*/
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color:#fff;
+}
+ul {
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Permanent Marker', cursive;
+}
+p, a {
+    font-family:'Lato', sans-serif;
+}
+.text-center{
+    text-align:center ;
+}
+
+/*Header Starts*/
+
+header {
+    position:relative;
+}
+#logo-img {
+    height: 200px;
+    display: inline-block;
+}
+nav {
+    float: right;
+    display: inline-block;
+    width: 550px;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+}
+nav ul {
+    float:right;
+    width: 100%;
+    margin-bottom: 0px;
+}
+ul {
+    list-style-type: none;
+    
+}
+nav ul li {
+    display:inline-block;
+    font-size: 24px;
+    padding: 5%;
+    border-radius: 10px 10px 0px 0px;
+
+}
+#home-link {
+    background-color: #000;
+    color: #00c5ff;
+}
+#about-link {
+    background-color: #00c5ff;
+    color: #00f;
+}
+#contact-link {
+    background-color: #0f0;
+    color: #ff0;
+}
+
+/*Hero Sections Begins*/
+
+#hero {
+    height: 400px;
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#hero h2 {
+    font-size: 52px;
+    color: #f00;
+    text-align:center;
+    position: relative;
+    top:45%;
+    margin-top: 0px;
+}
+
+/*The Blog Sidebar*/
+
+aside {
+    height: 300px;
+    background-color: #ff0;
+    border: 2px solid black;
+    width: 35%;
+    text-align: center;
+    float:left;
+}
+#blog-links {
+    list-style-type: none;
+    height:100%;
+    margin:0px;
+    padding-left:0px;
+}
+#blog-links a {
+    color:#ff00ff;
+    display: block;
+    height: 25%;
+    font-size:32px;
+}
+
+#blog-links li {
+    color:#00c5ff;
+    border:2px solid #000;
+    height: 100%;
+}
+#blog-links li:hover {
+    background-color:#000;
+    color:#ff0;
+    font-weight: 900;
+}
+
+/*Main Sections Begins*/
+
+main {
+    float: left;
+    width: 65%;
+    overflow:auto;
+    height:300px;
+}
+main h1 {
+    letter-spacing: 5px;
+}
+#main-text{
+    font-size: 1.5em;
+    line-height: 30px;
+    padding:0px 10px;
+}
+
+/*Footer Begins*/
+footer {
+    background-color:#333;
+    clear:both;
+    padding:24px 0px;
+}
+.fa {
+    margin: 10px 10px 10px 0px;
+}
+#copyright {
+    font-size: 25px;
+    color:#fff;
+}
+.fa-facebook {
+    color:#00f;
+}
+.fa-instagram {
+    color:#f0f;
+}
+.fa-twitter {
+    color:#f00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
